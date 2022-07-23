@@ -1,0 +1,108 @@
+@import '../../styles/default.scss';
+
+.navbar-brand img{
+    width: 62.56px;
+    height: 16.02px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.btn_signup{
+    background-color: $orange-color;
+    border-radius: 0.5rem;
+    padding: .5rem 1.5rem;
+}
+
+.btn_signin{
+    background-color: unset;
+    padding: .5rem 1rem;
+}
+
+
+
+.navbar-toggler{
+    color: white;
+    background-color: transparent;
+    order: 4;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-nav{
+    max-width: 20rem;
+    background-color: $footer-color;
+    margin-left: auto;
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.navbar-collapse{
+    order: 5;
+    text-align: right;
+}
+
+
+//show sign up and sign button inside
+@media screen and (max-width:450px){
+    .nav-link{
+        font-size: 1.4rem;
+    }
+
+    .navbar{
+        padding: 1.5rem 2rem;
+    }
+    
+    
+}
+
+//show sign up and sign button outside
+@media screen and (max-width:1199px) and (min-width:450px){
+    .nav-link{
+        font-size: 1.8rem;
+    }
+
+    .navbar{
+        padding: 2rem 4rem;
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+
+    .navbar{
+        padding: 3rem 5rem;
+    }
+
+
+    .nav-link{
+        font-size: 1.8rem;
+    }
+
+    .navbar-nav{
+        gap: 3rem;
+        max-width: unset;
+        background-color: unset;
+        margin-left: unset;
+        padding: 0 0 0 2rem;
+        border-radius: none; 
+        margin-top: 0;   
+    }
+
+    .btn_signup{
+        padding: 1.5rem 4.5rem;
+    }
+    
+    .btn_signin{
+        padding: 1rem 2rem;
+    }
+
+    .navbar-collapse{
+        order: unset;
+        text-align: unset;
+    }
+}

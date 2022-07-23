@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+$background-color:#040C18;
+$footer-color:#031b34;
+$orange-color:#FF4820;
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: $background-color;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 3.6rem;
+    line-height: 4rem;
+}
+
+h2{
+    font-size: 2.8rem;
+    line-height: 4rem;
+}
+
+h3{
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: inherit;
+}
+
+
+@media screen and (min-width:450px){
+    
+    h1{
+        font-size: 6.2rem;
+        line-height: 7.5rem;
+    }
+    
+    h2{
+        font-size: 3.4rem;
+        line-height: 4.5rem;
+    }
+    
+    h3{
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+}
+

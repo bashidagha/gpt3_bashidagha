@@ -1,0 +1,15 @@
+.gpt3_btn{
+    font-size: 1.4rem;
+    line-height: 18px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+
+@media screen and (min-width:450px){
+    .gpt3_btn{
+        font-size: 1.8rem;
+        line-height: 24.59px;
+    }
+}
