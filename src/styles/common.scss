@@ -6,6 +6,14 @@
     color: white;
 }
 
+.gradient-colors{
+    background: $text-gradient;
+    font-weight: 800;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 @media screen and (min-width:450px){
     .gpt3_btn{

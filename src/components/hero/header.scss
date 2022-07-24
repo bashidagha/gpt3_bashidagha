@@ -1,0 +1,134 @@
+@import '../../styles/default.scss';
+@import '../../styles/common.scss';
+
+.hero-title{
+    padding-top: 5rem;
+
+    h1{
+        @extend .gradient-colors;
+    }
+
+    p{
+        font-size: 1.8rem;
+        margin-top: 2.5rem;
+        margin-bottom: 3.2rem;
+    }
+
+}
+
+.last_people{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.btn-getstarted{
+    height: 5rem;
+    background-color: $orange-color;
+    font-weight: 700;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.hero-title-inputs{
+    height: 5rem;
+    display: flex;
+    width: 100%;
+
+    input{
+        height: 100%;
+        width: 100%;
+        border: none;
+        padding: 0;
+        color: #3D6184;
+        background-color: #052D56;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        padding-left: 3rem;
+    }
+}
+
+
+.company-icons{
+    display: flex;
+    align-content: center;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 8rem 0 5rem 0;
+}
+
+
+
+//tablet and mini laptop
+@media screen and (max-width:1199px) and (min-width:576px){
+
+    
+}
+
+
+//bg laptop
+@media screen and (min-width:1200px){
+
+  
+}
+
+
+
+//layout other than mobile
+@media screen and (min-width:577px){
+
+    .hero{
+        display: flex;
+        flex-direction: row;
+        padding: 1rem 5rem;
+    }
+
+
+    .hero-title{
+        width: 45%;
+        padding-top: 5rem;
+
+        p{
+            font-size: 2rem;
+            margin-top: 3rem;
+            margin-bottom: 4rem;
+        }
+
+    }
+
+    .hero-image-container{
+        width: 50%;
+        margin-left: auto;
+    }
+    
+    .hero-title-inputs{
+        height: 7.3rem;
+        width: 100%;
+
+        input{
+            font-size: 2rem;
+        }
+    }
+
+    .btn-getstarted{
+        height: 7.3rem;
+        min-width: 15rem;
+    }
+
+    .last_people{
+        flex-direction: row;   
+    img{
+        height: 3.6rem;
+        
+        margin-right: 2rem;
+    }
+    }
+    
+
+}
+
