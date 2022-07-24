@@ -2,12 +2,15 @@
 @import '../../styles/common.scss';
 
 .future{
-    margin: 7rem 0 5rem 0;
+    margin: 7rem 3rem 5rem 3rem;
     display: flex;
-
+    justify-content: space-between;
+    flex-direction: column;    
 }
 
 .future_title{
+
+    margin-bottom: 3rem;
     
     h2{
         @extend .gradient-colors;
@@ -19,6 +22,22 @@
         font-size: 1.6rem;
     }
 
+}
+
+
+.future-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+    gap: 5%;
+
+    p{
+        font-size: 1.4rem;
+    }
+
+    hr{
+        margin: 0 0 0.4rem 0;
+    }
 }
 
 
@@ -39,7 +58,16 @@
     
     .future {
         margin: 5rem;
-  
+        flex-direction: row;
       }
+
+      .future-items{
+        max-width: 50%;
+    }
+
+    .future_title{
+        width: 40%;
+    }
+    
   }
   
