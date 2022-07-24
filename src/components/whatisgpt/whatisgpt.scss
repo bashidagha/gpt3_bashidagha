@@ -1,92 +1,81 @@
-@import '../../styles/default.scss';
-@import '../../styles/common.scss';
+@import "../../styles/default.scss";
+@import "../../styles/common.scss";
 
+.whatisgpt {
+  margin: 5rem 0;
+  background-color: $footer-color;
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    #042c54 85%,
+    #1b78de 100%
+  );
 
-.whatisgpt{
-    margin: 5rem 4rem;
-    background-color: $footer-color;
-    background: radial-gradient(circle at 30% -100%,#042c54 25%,#042c54 85%,#1b78de 100%);
-
-    hr{
-        width: 3.8rem;
-        height: 0.3rem;
-        background: $text-gradient;
-        opacity: 1;
-        border: none;
-     }
-
-     p{
-         font-size: 1.4rem;
-     }
+  p {
+    font-size: 1.4rem;
+  }
 }
 
-.whatisgpt_item_container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    padding: 2rem;
+.whatisgpt_item_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
 }
 
-.whatisgpt_item{
-    flex: 1 1;
-    min-width: 20rem;
+.whatisgpt_item {
+  flex: 1 1;
+  min-width: 20rem;
 }
 
-.whatisgpt_title{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 2rem;
-    align-items: center;
+.whatisgpt_title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
 
-    h2{
-        @extend .gradient-colors;
-        max-width: 55rem;
-    }
+  h2 {
+    @extend .gradient-colors;
+    max-width: 55rem;
+  }
 
-    a{
-        font-size: 1.6rem;
-        color: #FF8A71;
-    }
+  a {
+    font-size: 1.6rem;
+    color: #ff8a71;
+  }
 }
-
 
 //tablet and mini laptop
-@media screen and (max-width:1199px) and (min-width:576px){
-    .whatisgpt{
-        margin: 5rem 10rem;
-    }
+@media screen and (max-width: 1199px) and (min-width: 576px) {
+  .whatisgpt {
+    margin: 5rem 5rem;
+  }
 }
-
 
 //bg laptop
-@media screen and (min-width:1200px){
-    .whatisgpt{
-        margin: 5rem 13rem;
-    }
+@media screen and (min-width: 1200px) {
+  
 }
-
 
 //layout other than mobile
-@media screen and (min-width:577px){
-    .whatisgpt{
+@media screen and (min-width: 577px) {
 
-        padding: 3rem;
-   
-         p{
-             font-size: 1.6rem;
-         }
+  .whatisgpt {
+    padding: 3rem;
+    margin: 5rem 5rem 10rem 5rem;
+
+    p {
+      font-size: 1.6rem;
     }
+  }
 
-    .whatisgpt_item{
-        min-width: 30rem;
-        max-width: 50rem;
-    }
+  .whatisgpt_item {
+    min-width: 30rem;
+    max-width: 50rem;
+  }
 
-
-    .whatisgpt_title p{
-        max-width: 50rem;
-    }
+  .whatisgpt_title p {
+    max-width: 50rem;
+  }
 }
-
-

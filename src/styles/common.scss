@@ -1,23 +1,30 @@
-.gpt3_btn{
-    font-size: 1.4rem;
-    line-height: 18px;
-    outline: none;
-    border: none;
-    color: white;
+.gpt3_btn {
+  font-size: 1.4rem;
+  line-height: 18px;
+  outline: none;
+  border: none;
+  color: white;
 }
 
-.gradient-colors{
-    background: $text-gradient;
-    font-weight: 800;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.gradient-colors {
+  background: $text-gradient;
+  font-weight: 800;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+hr {
+  width: 3.8rem;
+  height: 0.3rem;
+  background: $text-gradient;
+  opacity: 1;
+  border: none;
+}
 
-@media screen and (min-width:450px){
-    .gpt3_btn{
-        font-size: 1.8rem;
-        line-height: 24.59px;
-    }
+@media screen and (min-width: 450px) {
+  .gpt3_btn {
+    font-size: 1.8rem;
+    line-height: 24.59px;
+  }
 }

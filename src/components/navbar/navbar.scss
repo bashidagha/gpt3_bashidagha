@@ -42,41 +42,30 @@
 }
 
 .navbar-collapse{
-    order: 5;
     text-align: right;
+    position: absolute;
+    top: 5rem;
+    right: 2.5rem;
+}
+
+.nav-link{
+    font-size: 1.4rem;
 }
 
 
-//show sign up and sign button inside
-@media screen and (max-width:450px){
-    .nav-link{
-        font-size: 1.4rem;
-    }
 
-    .navbar{
-        padding: 1.5rem 2rem;
-    }
-    
-    
-}
 
 //show sign up and sign button outside
-@media screen and (max-width:1199px) and (min-width:450px){
+@media screen and (max-width:1199px) and (min-width:577px){
     .nav-link{
         font-size: 1.8rem;
     }
 
-    .navbar{
-        padding: 2rem 4rem;
-    }
+
     
 }
 
 @media screen and (min-width:1200px){
-
-    .navbar{
-        padding: 3rem 5rem;
-    }
 
 
     .nav-link{
@@ -102,7 +91,7 @@
     }
 
     .navbar-collapse{
-        order: unset;
         text-align: unset;
+        position: unset;
     }
 }

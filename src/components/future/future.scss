@@ -1,0 +1,45 @@
+@import '../../styles/default.scss';
+@import '../../styles/common.scss';
+
+.future{
+    margin: 7rem 0 5rem 0;
+    display: flex;
+
+}
+
+.future_title{
+    
+    h2{
+        @extend .gradient-colors;
+        margin-bottom: 4rem;
+    }
+    
+    a{
+        color: #FF8A71;
+        font-size: 1.6rem;
+    }
+
+}
+
+
+
+
+//tablet and mini laptop
+@media screen and (max-width: 1199px) and (min-width: 576px) {
+    
+  }
+  
+  //bg laptop
+  @media screen and (min-width: 1200px) {
+   
+  }
+  
+  //layout other than mobile
+  @media screen and (min-width: 577px) {
+    
+    .future {
+        margin: 5rem;
+  
+      }
+  }
+  
