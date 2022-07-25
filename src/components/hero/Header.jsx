@@ -22,7 +22,6 @@ const Header = () => {
                 </div>
             </div>
             <div className='hero-image-container'>
-                <Icon name="ai"/>
             </div>
         </div>
 

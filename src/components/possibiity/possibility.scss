@@ -1,0 +1,126 @@
+@import '../../styles/default.scss';
+@import '../../styles/common.scss';
+
+.possibility{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+.possibility-getstarted{
+    background: $text-gradient;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.possibility-image{
+    background-position: center center;
+    background-image: url('../../assets/possibility.png');
+    background-size: cover;
+    width: 90%;
+    min-height: 40rem;
+}
+
+
+.possibility-getstarted-btn{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.possibility-getstarted-text{
+    font-size: 1.2rem;
+    color: black;
+}
+
+.possibility-getstarted-title{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: black;
+}
+
+.possibility-title{
+
+    padding: 3rem;
+
+    h2{
+        @extend .gradient-colors;
+    }
+
+    p{
+        font-size: 1.4rem;
+    }
+
+    a{
+        font-size: 1.4rem;
+        color: #FF8A71;
+    }
+}
+
+
+
+//tablet and mini laptop
+@media screen and (max-width:1199px) and (min-width:576px){
+
+}
+
+
+//bg laptop
+@media screen and (min-width:1200px){
+
+}
+
+
+
+//layout other than mobile
+@media screen and (min-width:577px){
+
+    .possibility-image{
+        width: 35%;
+    }
+
+    .possibility-title{
+
+        width: 50%;
+        padding: 1rem;
+
+        p{
+            font-size: 1.6rem;
+        }
+
+        a{
+            font-size: 1.6rem;
+            color: #FF8A71;
+        }
+    }
+   
+    .possibility{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .possibility-getstarted{
+        margin: 5rem;
+        flex-direction: row;
+        padding: 4rem 5rem;
+    }
+
+    .possibility-getstarted-title{
+        font-size: 2.4rem;
+    }
+
+    .possibility-getstarted-btn{
+        margin-top: 0;
+    }
+}
+

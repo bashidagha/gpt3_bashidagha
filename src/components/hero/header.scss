@@ -76,6 +76,16 @@
 }
 
 
+.hero-image-container{
+    width: 100%;
+    background-image: url('../../assets/ai.png');
+    background-position: center center;
+    background-size: cover;
+    min-height: 30rem;
+    margin-top: 5rem;
+}
+
+
 
 //tablet and mini laptop
 @media screen and (max-width:1199px) and (min-width:576px){
@@ -125,10 +135,7 @@
     .hero-image-container{
         width: 50%;
         margin-left: auto;
-
-        img{
-            height: 100%;
-        }
+        margin-top: 0;
     }
     
     .hero-title-inputs{
